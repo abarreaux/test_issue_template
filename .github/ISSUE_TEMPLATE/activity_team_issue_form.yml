@@ -1,0 +1,42 @@
+name: Activity Team Issue template
+description: Create an Issue with pre-filled template
+title: ""
+labels: []
+projects: []
+body:
+  - type: textarea
+    id: Business Owner
+    attributes:
+      label: Business Owner
+      description: Who is responsible for this and should be notified once the issue is closed ?
+      placeholder: Body
+      value: "@someone"
+    validations:
+      required: true
+  - type: textarea
+    id: Ticket Context
+    attributes:
+      label: Ticket Context
+      description: What problem are you trying to fix in this ticket ?
+      placeholder: Body
+      value: ""
+    validations:
+      required: true
+  - type: url
+    id: Notion Context
+    attributes:
+      label: Notion Context
+      description: What EPIC is this ticket a part of ?
+      placeholder: Body
+      value: "link-to-super-epic.earth"
+    validations:
+      required: true
+  - type: textarea
+    id: Technical Proposition
+    attributes:
+      label: Technical Proposition
+      description: What do you propose to fix the problem ?
+      placeholder: Body
+      value: ""
+    validations:
+      required: true
