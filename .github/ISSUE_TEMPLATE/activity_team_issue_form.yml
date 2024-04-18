@@ -19,10 +19,10 @@ body:
       label: Ticket Context
       description: What problem are you trying to fix in this ticket ?
       placeholder: Body
-      value: ""
+      value: "I want to ..."
     validations:
       required: true
-  - type: url
+  - type: input
     id: Notion_Context
     attributes:
       label: Notion Context
@@ -37,6 +37,6 @@ body:
       label: Technical Proposition
       description: What do you propose to fix the problem ?
       placeholder: Body
-      value: ""
+      value: "I will ..."
     validations:
       required: true
