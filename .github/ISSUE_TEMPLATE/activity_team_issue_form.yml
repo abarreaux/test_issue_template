@@ -1,11 +1,11 @@
 name: Activity Team Issue template
 description: Create an Issue with pre-filled template
-title: ""
+title: "Issue"
 labels: []
 projects: []
 body:
   - type: textarea
-    id: Business Owner
+    id: Business_Owner
     attributes:
       label: Business Owner
       description: Who is responsible for this and should be notified once the issue is closed ?
@@ -14,7 +14,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Ticket Context
+    id: Ticket_Context
     attributes:
       label: Ticket Context
       description: What problem are you trying to fix in this ticket ?
@@ -23,7 +23,7 @@ body:
     validations:
       required: true
   - type: url
-    id: Notion Context
+    id: Notion_Context
     attributes:
       label: Notion Context
       description: What EPIC is this ticket a part of ?
@@ -32,7 +32,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Technical Proposition
+    id: Technical_Proposition
     attributes:
       label: Technical Proposition
       description: What do you propose to fix the problem ?
