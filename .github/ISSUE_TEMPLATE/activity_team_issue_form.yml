@@ -13,15 +13,6 @@ body:
       value: "@someone"
     validations:
       required: true
-  - type: textarea
-    id: Ticket_Context
-    attributes:
-      label: Ticket Context
-      description: What problem are you trying to fix in this ticket ?
-      placeholder: Body
-      value: "I want to ..."
-    validations:
-      required: true
   - type: input
     id: Notion_Context
     attributes:
@@ -29,6 +20,15 @@ body:
       description: What EPIC is this ticket a part of ?
       placeholder: Body
       value: "link-to-super-epic.earth"
+    validations:
+      required: true
+  - type: textarea
+    id: Ticket_Context
+    attributes:
+      label: Ticket Context
+      description: What problem are you trying to fix in this ticket ?
+      placeholder: Body
+      value: "I want to ..."
     validations:
       required: true
   - type: textarea
