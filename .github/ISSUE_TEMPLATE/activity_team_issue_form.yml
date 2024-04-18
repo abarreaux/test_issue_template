@@ -4,7 +4,7 @@ title: "Issue"
 labels: []
 projects: []
 body:
-  - type: textarea
+  - type: input
     id: Business_Owner
     attributes:
       label: Business Owner
